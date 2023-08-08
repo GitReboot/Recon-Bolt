@@ -74,10 +74,6 @@
 /* Time Formatting: minutes, seconds, & milliseconds (used in round details view) */
 "%lld:%@.%@" = "%lld:%@.%@";
 
-/* Contract Progress Bar
-Missions Box */
-"%lld / %lld XP" = "%lld / %lld 經驗值";
-
 /* Win Rate Stats by Loadout Delta: focused value (drag on graph) */
 "(%lld – %lld)" = "(%lld – %lld)";
 
@@ -108,7 +104,7 @@ Competitive matches after your placements can be identified without their detail
 
 然而，您的位置後可以識別競爭性匹配，而無需其詳細資訊。";
 
-/* No comment provided by engineer. */
+/* Match List: shown with a match's RR change when the player got an AFK Penalty (filled into the placeholder, including -) */
 "AFK: %lld" = "掛機: %lld";
 
 /* Career Summary: header for totals of all time */
@@ -120,17 +116,14 @@ Competitive matches after your placements can be identified without their detail
 /* No comment provided by engineer. */
 "About Recon Bolt" = "關於Recon Bolt";
 
+/* Store: accessory section */
+"Accessories" = "配件";
+
+/* Store: Accessory List: title */
+"Accessory Store" = "配件商店";
+
 /* Settings: section */
 "Accounts" = "帳號";
-
-/* Contract Picker: button */
-"Activate" = "激活";
-
-/* Contract Picker */
-"Active" = "啟用";
-
-/* Missions Box: header */
-"Active Contract" = "當前契約";
 
 /* Match List: accessibility label */
 "Add Bookmark" = "增加書籤";
@@ -149,12 +142,6 @@ Competitive matches after your placements can be identified without their detail
 
 /* No comment provided by engineer. */
 "Agent Select" = "選擇特務";
-
-/* Contract Picker */
-"Agent Unlockable" = "特務可解鎖";
-
-/* Contract Picker */
-"Agent Unlocked" = "特務已解鎖";
 
 /* Statistics filter: button */
 "Agents" = "特務";
@@ -189,6 +176,9 @@ Competitive matches after your placements can be identified without their detail
 /* Settings: button */
 "App Icon" = "應用程式圖示";
 
+/* Account Settings: title for alert to confirm signing out of all accounts—not always visible; iOS decides when to show this */
+"Are You Sure?" = "你確定?";
+
 /* No comment provided by engineer. */
 "Are your assets outdated?" = "你的資源包是過期的嗎？";
 
@@ -216,11 +206,17 @@ Competitive matches after your placements can be identified without their detail
 /* Win Rate Stats: side name */
 "Attacking" = "攻擊方";
 
-/* Store: available currency */
-"Available:" = "可用:";
+/* Settings: toggle */
+"Automatically Sign Back In" = "自動重新登入";
+
+/* Bookmark/Player List: toggle */
+"Automatically Update Ranks" = "自動更新排位";
 
 /* Hit Distribution Stats: average HS% */
 "Average: %@" = "平均: %@";
+
+/* Pro Store: warning title */
+"Before you Buy" = "購買之前";
 
 /* Request Log: shown for bodies that are not decodable to text */
 "Binary Data" = "二進制資料";
@@ -272,8 +268,17 @@ Playtime Stats: section */
 /* Weapon Reference */
 "Category" = "分類";
 
+/* App Icon Description: pride */
+"Celebrate LGBTQ Pride month with a colorful look! (Free during June)" = "慶祝LGBTQ驕傲月！ 但用五顏六色的（6月免費）";
+
+/* App Icon Description: pride */
+"Celebrate LGBTQ Pride month, but in dark!" = "慶祝LGBTQ驕傲月，但黑暗！";
+
 /* No comment provided by engineer. */
 "Change Buddy" = "更換吊飾";
+
+/* Settings: button */
+"Change Language" = "更換語言";
 
 /* No comment provided by engineer. */
 "Change Queue" = "更換模式";
@@ -305,9 +310,6 @@ Playtime Stats: section */
 /* No comment provided by engineer. */
 "Choose Title" = "更換稱號";
 
-/* Contract Picker: title */
-"Choose a Contract" = "選擇契約";
-
 /* Buddy Picker: alert shown when both instances of a buddy are in use */
 "Choose a weapon to take %@ from." = "選擇要換走 %@ 的武器。";
 
@@ -317,14 +319,8 @@ Playtime Stats: section */
 /* Skin Details: section */
 "Color Variants" = "幻彩顏色";
 
-/* Contract Picker */
-"Completed" = "已完成";
-
 /* Storage Management: title for alert to confirm deleting some matches */
 "Confirm Delete" = "確定刪除";
-
-/* Missions Box */
-"Contract complete!" = "契約完成!";
 
 /* Request Log: button to copy the request's body/contents (accessibility label) */
 "Copy Body" = "複製內容";
@@ -387,13 +383,19 @@ Playtime Stats: section */
 "Daily" = "每日";
 
 /* Missions Box: header */
-"Daily Missions" = "每日任務";
+"Daily Checkpoints" = "每日檢查站";
 
 /* Store */
 "Daily Offers" = "每日商店";
 
+/* Weapon Reference: stats */
+"Damage" = "傷害";
+
 /* App Theme */
 "Dark Mode" = "黑暗模式";
+
+/* App Icon Name */
+"Dark Rainbow" = "黑暗彩虹";
 
 /* Stats: match loading */
 "Data going back to %@" = "資料返回到 %@";
@@ -441,7 +443,7 @@ Playtime Stats: section */
 "Enter 2FA Code" = "輸入驗證碼";
 
 /* Weapon Reference: stats */
-"Equip Time" = "裝備時間";
+"Equip Time" = "裝備速度";
 
 /* Request Log
 Stats: error details */
@@ -508,11 +510,11 @@ Stats: error details */
 /* Weapon Reference: stats */
 "Fire Rate" = "射速";
 
+/* Weapon Reference: stats */
+"First Bullet Spread" = "首發彈道偏移";
+
 /* No comment provided by engineer. */
 "Force Refresh Widgets" = "強制重新整理小工具";
-
-/* Contract Picker */
-"Free Agent" = "免費特務";
 
 /* Storage Management: button to free up a certain amount of space */
 "Free up these %@" = "釋放這些 %@";
@@ -612,9 +614,6 @@ Weapon Reference: stats */
 /* Bookmark/Player List: player level */
 "Level %lld" = "等級 %lld";
 
-/* Contract Progress Bar */
-"Level %lld / %lld" = "等級 %lld / %lld";
-
 /* No comment provided by engineer. */
 "Lifetime Peak" = "最高排位";
 
@@ -673,11 +672,17 @@ If you don't know your username or don't have one, you can fix that at [account.
 /* Win Rate Stats: chart legend */
 "Losses" = "輸掉";
 
+/* Weapon Reference: stats */
+"Magazine Size" = "彈匣大小";
+
 /* No comment provided by engineer. */
 "Manage Assets" = "管理資源包";
 
 /* No comment provided by engineer. */
 "Manage Local Storage" = "管理本地儲存空間";
+
+/* Settings: section */
+"Management" = "管理";
 
 /* About Screen */
 "Many thanks to the volunteer translators from our Discord server who have been hard at working translating the app to new languages!" = "非常感謝來自我們Discord伺服器的自願翻譯人員，他們一直在努力將應用程式翻譯成新語言！";
@@ -690,6 +695,9 @@ If you don't know your username or don't have one, you can fix that at [account.
 
 /* Stats: error details */
 "Match" = "對戰";
+
+/* Asset Management: option to match assets language to app language */
+"Match App Language" = "符合應用程式語言";
 
 /* Match Details: title */
 "Match Details" = "回合詳情";
@@ -720,9 +728,6 @@ If you don't know your username or don't have one, you can fix that at [account.
 
 /* Asset Management */
 "Missing assets!" = "缺少資源包！";
-
-/* Missions Box */
-"Missing progress for contract!" = "缺少契約進度！";
 
 /* No comment provided by engineer. */
 "Missing season data!" = "缺少賽季資料！";
@@ -762,9 +767,6 @@ If you don't know your username or don't have one, you can fix that at [account.
 
 /* Gun Customizer: shown when a weapon has no buddy active */
 "No buddy selected!" = "沒有吊飾選取!";
-
-/* Missions Box */
-"No contract active!" = "沒有契約啟用!";
 
 /* Win Rate Stats: by map */
 "No data" = "沒有資料";
@@ -855,6 +857,9 @@ Playtime Stats: section */
 /* Weapon Reference */
 "Price" = "價格";
 
+/* Badge applied to buttons that are exclusive to Pro, e.g. in the account settings */
+"Pro" = "專業版";
+
 /* App Icon Name */
 "Pro Blue" = "專業版藍色";
 
@@ -872,6 +877,12 @@ Playtime Stats: section */
 
 /* Statistics filter: button */
 "Queues" = "隊列";
+
+/* App Icon Name */
+"Rainbow" = "彩虹";
+
+/* Weapon Reference: stats */
+"Range" = "距離";
 
 /* Rank Widget: title */
 "Rank" = "排位";
@@ -961,8 +972,14 @@ Request Log: title */
 /* Win Rate Stats: section */
 "Rounds by Side" = "按方回合";
 
+/* Weapon Reference: stats */
+"Run Speed" = "跑速";
+
 /* Bookmark/Player List: section */
 "Search" = "搜尋";
+
+/* Asset Management: language picker title */
+"Select Language" = "選擇語言";
 
 /* Hit Distribution Stats: error */
 "Select more matches to see data on hit distribution. Deathmatch, Escalation, and other modes don't provide the necessary information." = "選擇更多對戰以檢視命中分佈的資料。 死鬥、超激進戰和其他模式不提供必要的資訊。";
@@ -978,6 +995,9 @@ Request Log: title */
 
 /* Playtime Stats: title for view of matches in common with another player */
 "Shared Matches" = "分享對戰";
+
+/* Weapon Reference: stats */
+"Shotgun Pellets" = "霰彈顆粒";
 
 /* No comment provided by engineer. */
 "Show Unfetched Matches" = "顯示未獲取的對戰";
@@ -998,6 +1018,12 @@ Login Form: button */
 /* Login Form */
 "Sign In with your Riot account" = "登入你的拳頭帳號";
 
+/* Account Settings: button in alert to confirm signing out of all accounts */
+"Sign Out" = "登出";
+
+/* Account Settings: button */
+"Sign Out of All Accounts" = "登出所有帳號";
+
 /* Login Form: button/header */
 "Sign in with Google/Apple/etc." = "登入為 Google/Apple/etc.";
 
@@ -1012,6 +1038,12 @@ Login Form: button */
 
 /* Hit Distribution Stats: smoothing slider */
 "Smoothing" = "平滑度";
+
+/* App Icon Picker: section */
+"Special Icons" = "特別圖示";
+
+/* App Icon Picker: section footer */
+"Special Icons are available year-round for Pro users, while free users can only select them during a certain time window." = "專業使用者全年都有特殊圖示，而免費使用者只能在特定時間段內選擇特定的。";
 
 /* No comment provided by engineer. */
 "Spectator" = "旁觀者";
@@ -1055,9 +1087,6 @@ Login Form: button */
 /* Pro Store */
 "Support Further Development!" = "支援進一步的開發！";
 
-/* Missions Box: button */
-"Switch Contract" = "更改契約";
-
 /* Login Form: is this safe? */
 "TL;DR: you'll have to take my word for it, but Riot doesn't seem to mind." = "太長了不要看：你必須相信我的話，但Riot似乎並不介意。";
 
@@ -1073,7 +1102,7 @@ Login Form: button */
 /* App Icon Description: default */
 "The default look of Recon Bolt." = "預設外觀 Recon Bolt";
 
-/* No comment provided by engineer. */
+/* App Icon Picker: section footer */
 "The pro version lets you change the app icon! More icons might be coming in future updates." = "專業版允許您更改應用程式圖示！ 未來更新中可能會出現更多圖示。";
 
 /* Settings: picker */
@@ -1082,8 +1111,14 @@ Login Form: button */
 /* No comment provided by engineer. */
 "These are the last %lld requests sent by the app, along with their responses." = "以下是應用程式傳送的最後一個 %lld 的請求及回應";
 
+/* Bookmark/Player List: toggle description */
+"This can cause a lot of requests. If you have many bookmarks or are often hitting the rate limit, you might prefer to turn this off." = "這可能會導致很多請求。 如果您有很多書籤或經常達到速率限制，您可能更願意關閉它。";
+
 /* Statistics error for iOS <16 */
 "This feature requires iOS 16 or newer." = "這功能需要iOS 16或以上版本。";
+
+/* Settings: toggle description */
+"This makes Recon Bolt automatically use your username & password to sign in again if you get signed out. If you have 2-factor authentication enabled, this may fail if it requires a new code, but it still works sometimes." = "這可以令Recon Bolt在您退出登入時自動使用您的使用者名稱和密碼再次登入。 如果您啟用了雙重驗證，如果它需要新代碼，這可能有時失敗，但有時時有效。";
 
 /* Stats: match loading */
 "To gather statistics, we first need to load matches to process. Note that large amounts can take a long time, especially when downloading for the first time!" = "為了收集統計資料，我們首先需要載入對戰記錄來處理。 請注意：大量數量可能需要很長時間，特別是第一次下載時！";
@@ -1107,11 +1142,20 @@ Hit Distribution Stats: region */
 /* Request Log */
 "URL" = "網址";
 
-/* Missions Box: header, shown when a mission is not daily or weekly (should not happen unless Riot changes something) */
-"Uncategorized Missions" = "未分類的任務";
-
 /* Shown when a match does not match the filter and its details have not been fetched. */
 "Unfetched" = "未獲取";
+
+/* Pro Store: warning text */
+"Unfortunately, Riot is now using their intellectual property rights to take down this app. I'm trying to discuss with them to find a way forward, but I currently cannot guarantee that the app will stay available. I believe it will remain installed if you currently have it, but I'm not sure if I'll still be able to verify Pro purchases.
+
+If you or someone you know works at Riot, get in touch with me—there's a few ways linked in the About Recon Bolt section below.
+
+I would still be grateful for your support if you do purchase it! But it's at your own risk because I cannot guarantee that you'll enjoy the promised features going forward :(" = "不幸的是，Riot 現在正在使用他們的知識產權來關閉這個應用程序。 我正在嘗試與他們討論以找到前進的方向，但我目前無法保證該應用程序將保持可用狀態。 我相信如果您目前擁有它，它會保持安裝狀態，但我不確定我是否仍然能夠驗證 Pro 購買。
+
+如果您或您認識的人在 Riot 工作，請與我聯繫——下面的關於 Recon Bolt 部分提供了幾種鏈接方式。
+
+如果您購買它，我仍然會感謝您的支持！ 但這需要您自擔風險，因為我不能保證您會享受未來承諾的功能:(
+:)";
 
 /* Hit Distribution Stats: footnote */
 "Unfortunately, Valorant doesn't store information about which weapon was used for each hit. All we get is the weapon you started the round with and what weapon you used for each kill. Recon Bolt guesses the weapon involved in each damage based on this information, but it cannot be perfect (and neither can any other tracker)." = "不幸的是，Valorant沒有儲存關於每次命中使用哪種武器的資訊。 我們得到的只是你開始回合的武器，以及你每次殺戮都用什麼武器。 Recon Bolt根據這些資訊猜測每種傷害所涉及的武器，但它不可能是完美的(任何其他Tracker也不行)";
@@ -1139,8 +1183,8 @@ On that site, navigate to **Riot Account Sign-in** and set yourself a username a
 /* placeholder */
 "Unknown Bundle" = "未知組合包";
 
-/* Store */
-"Unknown Offer" = "未知商品";
+/* placeholder */
+"Unknown Card" = "末知卡面";
 
 /* No comment provided by engineer. */
 "Unknown Player" = "未知玩家";
@@ -1155,6 +1199,9 @@ On that site, navigate to **Riot Account Sign-in** and set yourself a username a
 "Unknown Skin" = "未知造型";
 
 /* placeholder */
+"Unknown Spray" = "末知噴漆";
+
+/* placeholder */
 "Unknown Title" = "末知稱號";
 
 /* Round Details: killed by unknown damage source/type */
@@ -1167,8 +1214,8 @@ Round Details: killed by unknown/unspecified weapon */
 /* No comment provided by engineer. */
 "Unknown bundle!" = "未知組合包！";
 
-/* Missions Box */
-"Unknown contract!" = "末知契約!";
+/* Store Bundle Details: should never show, but if Riot adds a new kind of item to a bundle, this would show */
+"Unknown item of type %@" = "未知物品的類型 %@";
 
 /* No comment provided by engineer. */
 "Unknown mission!" = "未知任務！";
@@ -1203,6 +1250,9 @@ Round Details: killed by unknown/unspecified weapon */
 /* No comment provided by engineer. */
 "View Full Profile" = "看完整的個人資料";
 
+/* Gun Customizer: button */
+"View Skin Details" = "查看皮膚詳細";
+
 /* Match List */
 "View Stats" = "查看統計資料";
 
@@ -1218,7 +1268,7 @@ Round Details: killed by unknown/unspecified weapon */
 /* Pro Features List */
 "View your storefront, daily/weekly missions, or current rank without even having to open the app!" = "查看您的商店、每日/每週任務或當前排位，甚至無需開啟遊戲！";
 
-/* No comment provided by engineer. */
+/* Match List: shown with a match's RR change when the player got a performance bonus (filled into the placeholder) */
 "WP: +%lld" = "WP: +%lld";
 
 /* No comment provided by engineer. */
@@ -1266,20 +1316,8 @@ Round Details: killed by unknown/unspecified weapon */
 /* No comment provided by engineer. */
 "iOS is a bit finnicky about this, so widgets may not refresh right away—feel free to reboot your device if this doesn't help!" = "iOS有點挑剔，因此小工具可能不會立即重新整理——如果這沒有幫助，請隨時重新啟動！";
 
-/* Loadout: spray slot */
-"mid-round" = "對戰中";
-
 /* Missions Widget: countdown label when the target is in the past. Should never really show up, since at this point there's new data. */
 "old" = "舊";
 
-/* Loadout: spray slot */
-"post-round" = "回合後";
-
-/* Loadout: spray slot */
-"pre-round" = "回合前";
-
 /* Login Form */
 "signing in…" = "登入中...";
-
-/* Loadout: unknown spray slot (should never appear unless Riot changes something) */
-"slot" = "欄位";

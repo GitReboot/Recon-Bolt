@@ -74,10 +74,6 @@
 /* Time Formatting: minutes, seconds, & milliseconds (used in round details view) */
 "%lld:%@.%@" = "%lld:%@.%@";
 
-/* Contract Progress Bar
-Missions Box */
-"%lld / %lld XP" = "%lld / %lld EP";
-
 /* Win Rate Stats by Loadout Delta: focused value (drag on graph) */
 "(%lld – %lld)" = "(%lld – %lld)";
 
@@ -106,7 +102,7 @@ Missions Box */
 "A match's queue is unknown until its details are fetched (by tapping it or performing the swipe action).
 Competitive matches after your placements can be identified without their details, however." = "Der Spielmodus ist erst dann bekannt, wenn die Details eines Spiels geladen sind (indem es angetippt oder nach rechts gewischt wird). Kompetitive Spiele können allerdings auch ohne ihre Details anhand der RW-Änderung identifiziert werden.";
 
-/* No comment provided by engineer. */
+/* Match List: shown with a match's RR change when the player got an AFK Penalty (filled into the placeholder, including -) */
 "AFK: %lld" = "AFK: %lld";
 
 /* Career Summary: header for totals of all time */
@@ -118,17 +114,14 @@ Competitive matches after your placements can be identified without their detail
 /* No comment provided by engineer. */
 "About Recon Bolt" = "Über Recon Bolt";
 
+/* Store: accessory section */
+"Accessories" = "Accessoires";
+
+/* Store: Accessory List: title */
+"Accessory Store" = "Accessoires";
+
 /* Settings: section */
 "Accounts" = "Konten";
-
-/* Contract Picker: button */
-"Activate" = "Aktivieren";
-
-/* Contract Picker */
-"Active" = "Aktiv";
-
-/* Missions Box: header */
-"Active Contract" = "Aktiver Auftrag";
 
 /* Match List: accessibility label */
 "Add Bookmark" = "Lesezeichen hinzufügen";
@@ -147,12 +140,6 @@ Competitive matches after your placements can be identified without their detail
 
 /* No comment provided by engineer. */
 "Agent Select" = "Agentenauswahl";
-
-/* Contract Picker */
-"Agent Unlockable" = "Agent freischaltbar";
-
-/* Contract Picker */
-"Agent Unlocked" = "Agent freigeschaltet";
 
 /* Statistics filter: button */
 "Agents" = "Agenten";
@@ -187,6 +174,9 @@ Competitive matches after your placements can be identified without their detail
 /* Settings: button */
 "App Icon" = "App-Icon";
 
+/* Account Settings: title for alert to confirm signing out of all accounts—not always visible; iOS decides when to show this */
+"Are You Sure?" = "Bist du sicher?";
+
 /* No comment provided by engineer. */
 "Are your assets outdated?" = "Sind deine Assets aktuell?";
 
@@ -217,11 +207,14 @@ Competitive matches after your placements can be identified without their detail
 /* Settings: toggle */
 "Automatically Sign Back In" = "Automatisch neu anmelden";
 
-/* Store: available currency */
-"Available:" = "Verfügbar:";
+/* Bookmark/Player List: toggle */
+"Automatically Update Ranks" = "Ränge automatisch aktualisieren";
 
 /* Hit Distribution Stats: average HS% */
 "Average: %@" = "Durchschnitt: %@";
+
+/* Pro Store: warning title */
+"Before you Buy" = "Bevor du zuschlägst";
 
 /* Request Log: shown for bodies that are not decodable to text */
 "Binary Data" = "Binäre Daten";
@@ -273,6 +266,12 @@ Playtime Stats: section */
 /* Weapon Reference */
 "Category" = "Kategorie";
 
+/* App Icon Description: pride */
+"Celebrate LGBTQ Pride month with a colorful look! (Free during June)" = "Feiere den LGBTQ Pride Month mit einem farbenfrohen Look! (Im Juni kostenlos)";
+
+/* App Icon Description: pride */
+"Celebrate LGBTQ Pride month, but in dark!" = "Feiere den LGBTQ Pride Month, aber in dunkel!";
+
 /* No comment provided by engineer. */
 "Change Buddy" = "Talisman wechseln";
 
@@ -309,9 +308,6 @@ Playtime Stats: section */
 /* No comment provided by engineer. */
 "Choose Title" = "Titel wählen";
 
-/* Contract Picker: title */
-"Choose a Contract" = "Auftrag auswählen";
-
 /* Buddy Picker: alert shown when both instances of a buddy are in use */
 "Choose a weapon to take %@ from." = "Wähle eine Waffe, von der du %@ entfernen willst.";
 
@@ -321,14 +317,8 @@ Playtime Stats: section */
 /* Skin Details: section */
 "Color Variants" = "Farbvarianten";
 
-/* Contract Picker */
-"Completed" = "Abgeschlossen";
-
 /* Storage Management: title for alert to confirm deleting some matches */
 "Confirm Delete" = "Löschen Bestätigen";
-
-/* Missions Box */
-"Contract complete!" = "Auftrag abgeschlossen!";
 
 /* Request Log: button to copy the request's body/contents (accessibility label) */
 "Copy Body" = "Inhalt kopieren";
@@ -391,7 +381,7 @@ Playtime Stats: section */
 "Daily" = "Täglich";
 
 /* Missions Box: header */
-"Daily Missions" = "Tägliche Missionen";
+"Daily Checkpoints" = "Tägliche Checkpoints";
 
 /* Store */
 "Daily Offers" = "Tagesangebote";
@@ -401,6 +391,9 @@ Playtime Stats: section */
 
 /* App Theme */
 "Dark Mode" = "Dunkelmodus";
+
+/* App Icon Name */
+"Dark Rainbow" = "Dunkler Regenbogen";
 
 /* Stats: match loading */
 "Data going back to %@" = "Daten gehen bis %@ zurück";
@@ -521,9 +514,6 @@ DEINE FEHLERMELDUNG HIER
 /* No comment provided by engineer. */
 "Force Refresh Widgets" = "Widgets sofort aktualisieren";
 
-/* Contract Picker */
-"Free Agent" = "Gratis-Agent";
-
 /* Storage Management: button to free up a certain amount of space */
 "Free up these %@" = "Diese %@ freimachen";
 
@@ -621,9 +611,6 @@ Weapon Reference: stats */
 
 /* Bookmark/Player List: player level */
 "Level %lld" = "Level %lld";
-
-/* Contract Progress Bar */
-"Level %lld / %lld" = "Level %lld / %lld";
 
 /* No comment provided by engineer. */
 "Lifetime Peak" = "Rekord";
@@ -740,9 +727,6 @@ Wenn du deinen Benutzernamen nicht kennst oder keinen hast, kannst du das unter 
 /* Asset Management */
 "Missing assets!" = "Assets fehlen!";
 
-/* Missions Box */
-"Missing progress for contract!" = "Keine Daten für diesen Auftrag!";
-
 /* No comment provided by engineer. */
 "Missing season data!" = "Aktdaten fehlen!";
 
@@ -781,9 +765,6 @@ Wenn du deinen Benutzernamen nicht kennst oder keinen hast, kannst du das unter 
 
 /* Gun Customizer: shown when a weapon has no buddy active */
 "No buddy selected!" = "Kein Talisman ausgewählt!";
-
-/* Missions Box */
-"No contract active!" = "Kein Auftrag aktiv!";
 
 /* Win Rate Stats: by map */
 "No data" = "Keine Daten";
@@ -894,6 +875,9 @@ Playtime Stats: section */
 
 /* Statistics filter: button */
 "Queues" = "Spielmodi";
+
+/* App Icon Name */
+"Rainbow" = "Regenbogen";
 
 /* Weapon Reference: stats */
 "Range" = "Distanz";
@@ -1032,6 +1016,9 @@ Login Form: button */
 /* Login Form */
 "Sign In with your Riot account" = "Mit Riot-Konto anmelden";
 
+/* Account Settings: button in alert to confirm signing out of all accounts */
+"Sign Out" = "Abmelden";
+
 /* Account Settings: button */
 "Sign Out of All Accounts" = "Aus allen Konten abmelden";
 
@@ -1049,6 +1036,12 @@ Login Form: button */
 
 /* Hit Distribution Stats: smoothing slider */
 "Smoothing" = "Glättung";
+
+/* App Icon Picker: section */
+"Special Icons" = "Besondere Icons";
+
+/* App Icon Picker: section footer */
+"Special Icons are available year-round for Pro users, while free users can only select them during a certain time window." = "Besondere Icons sind für Pro-Nutzer das ganze Jahr über verfügbar, während kostenlose Nutzer sie nur während eines bestimmten Zeitfensters aktivieren können.";
 
 /* No comment provided by engineer. */
 "Spectator" = "Zuschauer";
@@ -1092,9 +1085,6 @@ Login Form: button */
 /* Pro Store */
 "Support Further Development!" = "Weitere Entwicklung unterstützen!";
 
-/* Missions Box: button */
-"Switch Contract" = "Auftrag wechseln";
-
 /* Login Form: is this safe? */
 "TL;DR: you'll have to take my word for it, but Riot doesn't seem to mind." = "Schlussendlich musst du mir halt vertrauen, aber Riot scheint es zu tolerieren.";
 
@@ -1110,7 +1100,7 @@ Login Form: button */
 /* App Icon Description: default */
 "The default look of Recon Bolt." = "Der Standard-Look von Recon Bolt.";
 
-/* No comment provided by engineer. */
+/* App Icon Picker: section footer */
 "The pro version lets you change the app icon! More icons might be coming in future updates." = "Mit der Pro-Version kannst du das App-Icon ändern! Zukünftige Updates bringen womöglich neue Icons mit sich.";
 
 /* Settings: picker */
@@ -1118,6 +1108,9 @@ Login Form: button */
 
 /* No comment provided by engineer. */
 "These are the last %lld requests sent by the app, along with their responses." = "Dies sind die letzten %lld Anfragen, die die App gemacht hat, zusammen mit ihren Antworten.";
+
+/* Bookmark/Player List: toggle description */
+"This can cause a lot of requests. If you have many bookmarks or are often hitting the rate limit, you might prefer to turn this off." = "Das kann eine Menge Anfragen verursachen. Wenn du viele Lesezeichen hast oder oft einen Fehler bekommst, dass du zu viele Anfragen auslöst, solltest du diese Funktion lieber ausschalten.";
 
 /* Statistics error for iOS <16 */
 "This feature requires iOS 16 or newer." = "Diese Feature erfordert iOS 16 oder neuer.";
@@ -1147,11 +1140,19 @@ Hit Distribution Stats: region */
 /* Request Log */
 "URL" = "URL";
 
-/* Missions Box: header, shown when a mission is not daily or weekly (should not happen unless Riot changes something) */
-"Uncategorized Missions" = "Unkategorisierte Missionen";
-
 /* Shown when a match does not match the filter and its details have not been fetched. */
 "Unfetched" = "Ungeladen";
+
+/* Pro Store: warning text */
+"Unfortunately, Riot is now using their intellectual property rights to take down this app. I'm trying to discuss with them to find a way forward, but I currently cannot guarantee that the app will stay available. I believe it will remain installed if you currently have it, but I'm not sure if I'll still be able to verify Pro purchases.
+
+If you or someone you know works at Riot, get in touch with me—there's a few ways linked in the About Recon Bolt section below.
+
+I would still be grateful for your support if you do purchase it! But it's at your own risk because I cannot guarantee that you'll enjoy the promised features going forward :(" = "Leider wendet Riot Games nun ihr Copyright an, um diese App zu entfernen. Ich versuche, mit ihnen eine Lösung zu finden, aber ich kann nicht garantieren, dass die App weiterhin verfügbar ist. Ich glaube, dass sie installiert bleibt, wenn du sie schon hast, aber ich bin mir nicht sicher, ob sie dann noch Pro-Käufe überprüfen kann.
+
+Wenn du oder jemand, den du kennst, bei Riot arbeitet, kannst du dich mit mir in Verbindung setzen - es gibt einige Möglichkeiten, die im Abschnitt \"Über Recon Bolt\" unten verlinkt sind.
+
+Ich wäre dir für deine Unterstützung dankbar, wenn du Pro kaufst! Aber das ist auf eigene Gefahr, denn ich kann nicht garantieren, dass du die versprochenen Funktionen auch in Zukunft genießen kannst :(";
 
 /* Hit Distribution Stats: footnote */
 "Unfortunately, Valorant doesn't store information about which weapon was used for each hit. All we get is the weapon you started the round with and what weapon you used for each kill. Recon Bolt guesses the weapon involved in each damage based on this information, but it cannot be perfect (and neither can any other tracker)." = "Leider speichert Valorant keine Informationen darüber, welche Waffe für die einzelnen Treffer verwendet wurde. Alles, was wir bekommen, ist die Waffe, mit der du die Runde begonnen hast, und welche Waffe du für jeden Kill benutzt hast. Recon Bolt errät die Waffe, die an jedem Schaden beteiligt war, auf Grundlage dieser Informationen, aber es (und jeder anderer Tracker) kann nicht perfekt sein.";
@@ -1182,9 +1183,6 @@ Navigiere auf dieser Seite zu **Riot Account Sign-in** und gib dir einen Benutze
 /* placeholder */
 "Unknown Card" = "Unbekannter Banner";
 
-/* Store */
-"Unknown Offer" = "Unbekanntes Angebot";
-
 /* No comment provided by engineer. */
 "Unknown Player" = "Unbekannter Spieler";
 
@@ -1212,9 +1210,6 @@ Round Details: killed by unknown/unspecified weapon */
 
 /* No comment provided by engineer. */
 "Unknown bundle!" = "Unbekannte Sammlung!";
-
-/* Missions Box */
-"Unknown contract!" = "Unbekannter Auftrag!";
 
 /* Store Bundle Details: should never show, but if Riot adds a new kind of item to a bundle, this would show */
 "Unknown item of type %@" = "Unbekanntes Objekt des Typs %@";
@@ -1270,7 +1265,7 @@ Round Details: killed by unknown/unspecified weapon */
 /* Pro Features List */
 "View your storefront, daily/weekly missions, or current rank without even having to open the app!" = "Sieh deinen aktuellen Shop, tägliche/wöchentliche Missionen, oder deinen momentanen Rank, ohne auch nur die App zu öffnen!";
 
-/* No comment provided by engineer. */
+/* Match List: shown with a match's RR change when the player got a performance bonus (filled into the placeholder) */
 "WP: +%lld" = "WP: +%lld";
 
 /* No comment provided by engineer. */
@@ -1318,20 +1313,8 @@ Round Details: killed by unknown/unspecified weapon */
 /* No comment provided by engineer. */
 "iOS is a bit finnicky about this, so widgets may not refresh right away—feel free to reboot your device if this doesn't help!" = "iOS ist hier etwas intransparent, also werden die Widgets womöglich nicht sofort aktualisiert – wenn es nicht hilft, kannst du auch das Gerät neu starten!";
 
-/* Loadout: spray slot */
-"mid-round" = "Mitte";
-
 /* Missions Widget: countdown label when the target is in the past. Should never really show up, since at this point there's new data. */
 "old" = "alt";
 
-/* Loadout: spray slot */
-"post-round" = "Ende";
-
-/* Loadout: spray slot */
-"pre-round" = "Anfang";
-
 /* Login Form */
 "signing in…" = "Anmeldung läuft…";
-
-/* Loadout: unknown spray slot (should never appear unless Riot changes something) */
-"slot" = "Spray";

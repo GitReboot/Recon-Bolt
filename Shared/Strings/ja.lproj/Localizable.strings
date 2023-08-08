@@ -53,10 +53,6 @@
 /* Time Formatting: minutes, seconds, & milliseconds (used in round details view) */
 "%lld:%@.%@" = "%lld:%@.%@";
 
-/* Contract Progress Bar
-Missions Box */
-"%lld / %lld XP" = "%lld/%lld XP";
-
 /* Win Rate Stats by Loadout Delta: focused value (drag on graph) */
 "(%lld – %lld)" = "(%lld – %lld)";
 
@@ -86,7 +82,7 @@ Missions Box */
 Competitive matches after your placements can be identified without their details, however." = "試合のキューはデータを取る（タップするかスワイプする）まで知りません。
 振り分け戦の後のコンペティティブの試合はデータがなくても見つけられます。";
 
-/* No comment provided by engineer. */
+/* Match List: shown with a match's RR change when the player got an AFK Penalty (filled into the placeholder, including -) */
 "AFK: %lld" = "AFK: %lld";
 
 /* Career Summary: header for totals of all time */
@@ -101,15 +97,6 @@ Competitive matches after your placements can be identified without their detail
 /* Settings: section */
 "Accounts" = "アカウント";
 
-/* Contract Picker: button */
-"Activate" = "変える";
-
-/* Contract Picker */
-"Active" = "今";
-
-/* Missions Box: header */
-"Active Contract" = "今の契約";
-
 /* Match List: accessibility label */
 "Add Bookmark" = "ブックマークする";
 
@@ -118,9 +105,6 @@ Competitive matches after your placements can be identified without their detail
 
 /* Pro Features List */
 "Add multiple accounts and seamlessly switch between them at any time." = "いつでも何回も新しいアカウントにログインできます。";
-
-/* Store */
-"Unknown Offer" = "知らないオファーがあります";
 
 /* placeholder */
 "Unknown Skin" = "知らないスキンがあります";
